@@ -8,12 +8,13 @@ body{
     height: 80vh;
     display: grid;
     place-content: center;
-    background-color: rgb(44, 42, 42);
+    background-color: orange;
 }
 
 .title{
-    color: white;
+    color: black;
     font: 2em arial;
+    font-weight: 800;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -22,6 +23,7 @@ body{
     font: 4em arial;
     margin-bottom: 15px;
     text-align: center;
+    text-shadow: 0px 0px 10px rgb(67, 65, 65);
 }
 
 .buttons{
@@ -46,7 +48,8 @@ body{
 }
 
 button:hover{
-    background-color: darkorange;
+    background-color: dodgerblue;
+    color: white;
 }
 
 .laps{
@@ -59,11 +62,17 @@ button:hover{
 .lap{
    color: white;
    padding: 5px 0px 5px 8px;
-   border: 1px solid dodgerblue;
+   background-color: brown;
    margin: 5px
 }
 .lap:hover{
-    background-color: dodgerblue;
+    background-color: rgb(146, 41, 41);
+}
+
+.remove-hovers:hover{
+   background: none;
+   cursor:not-allowed;
+   box-shadow: none;
 }
 
 
