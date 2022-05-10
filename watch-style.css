@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 80vh;
+    display: grid;
+    place-content: center;
+    background-color: rgb(44, 42, 42);
+}
+
+.title{
+    color: white;
+    font: 2em arial;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.counters{
+    color: white;
+    font: 4em arial;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.button{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.671);
+    transform: translateY(-4px);
+    transition: transform .3s, background-color .3s;
+    font-weight: 500;
+}
+.button:active{
+    transform: translateY(1px);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.671);
+}
+
+button:hover{
+    background-color: darkorange;
+}
+
+.laps{
+
+    margin-top: 30px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.lap{
+   color: white;
+   padding: 5px 0px 5px 8px;
+   border: 1px solid dodgerblue;
+   margin: 5px
+}
+.lap:hover{
+    background-color: dodgerblue;
+}
+
+
+::-webkit-scrollbar{
+   width: 10px;
+   border-radius: 10px;
+   background-color: rgb(59, 58, 58);
+}
